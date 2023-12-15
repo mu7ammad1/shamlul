@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://https://shamlul.netlify.app
+Sitemap: https://shamlul.netlify.app
