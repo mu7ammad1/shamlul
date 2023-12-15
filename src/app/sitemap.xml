@@ -1,44 +1,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://shamlul.netlify.app</loc>
-        <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+        <lastmod>2023-12-16T01:31:32.394Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     <url>
-        <loc>https://shamlul.netlify.app/icons</loc>
-        <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+        <loc>https://shamlul.netlify.app/palettes</loc>
+        <lastmod>2023-12-16T01:31:32.394Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://shamlul.netlify.app/palettes</loc>
-        <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+        <loc>https://shamlul.netlify.app/icons</loc>
+        <lastmod>2023-12-16T01:31:32.394Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
-        <url>
+    <url>
         <loc>https://shamlul.netlify.app/fonts</loc>
-        <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+        <lastmod>2023-12-16T01:31:32.394Z</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+        <priority>0.5</priority>
     </url>
-        <url>
+    <url>
         <loc>https://shamlul.netlify.app/explore</loc>
-        <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+        <lastmod>2023-12-16T01:31:32.394Z</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-        <url>
-        <loc>https://shamlul.netlify.app/privecy</loc>
-        <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-        <url>
-        <loc>https://shamlul.netlify.app/about</loc>
-        <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+        <priority>0.5</priority>
     </url>
 </urlset>
