@@ -28,14 +28,15 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-    <Script
-    async
-    strategy='afterInteractive'
-    src="https://www.googletagmanager.com/gtag/js?id=G-L7BN49S88M"
-    />
+      <head>
+        <Script
+          async
+          strategy='afterInteractive'
+          src="https://www.googletagmanager.com/gtag/js?id=G-L7BN49S88M"
+        />
 
-    <Script id='google-analytics' strategy='afterInteractive'>
-      {`
+        <Script id='google-analytics' strategy='afterInteractive'>
+          {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
@@ -43,7 +44,9 @@ export default function RootLayout({
           gtag('config', 'G-L7BN49S88M');
         
       `}
-    </Script>
+        </Script>
+        <meta name="google-site-verification" content="7nUh0NZyD1QQdy5Q2tnzD7mUk2-G14FAkLhhDWhkoR4" />
+      </head>
 
       <body className={inter.className}>
         {/* <AgreementForm /> */}
