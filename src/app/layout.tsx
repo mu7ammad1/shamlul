@@ -11,6 +11,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 // TODO: imports Components
 import Navbar from '@/components/Navbar'
 import AgreementForm from '@/components/AgreementForm'
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+
+    <Script
+    async
+    strategy='afterInteractive'
+    src="https://www.googletagmanager.com/gtag/js?id=G-L7BN49S88M"
+    />
+
+    <Script id='google-analytics' strategy='afterInteractive'>
+      {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-L7BN49S88M');
+        
+      `}
+    </Script>
+
       <body className={inter.className}>
         {/* <AgreementForm /> */}
         <Navbar />
