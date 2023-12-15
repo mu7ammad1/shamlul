@@ -1,0 +1,232 @@
+@font-face {
+    font-family: Alyermook;
+    src: url(../asset/Fonts/ae-alyermook.ttf);
+}
+
+@font-face {
+    font-family: Mashq;
+    src: url(../asset/Fonts/ae-mashq.ttf);
+}
+
+@font-face {
+    font-family: AE-nada;
+    src: url(../asset/Fonts/ae-nada.ttf);
+}
+
+@font-face {
+    font-family: Rehan;
+    src: url(../asset/Fonts/ae-rehan.ttf);
+}
+
+@font-face {
+    font-family: Shado;
+    src: url(../asset/Fonts/ae-shado.ttf);
+}
+@font-face {
+    font-family: Cordoba-bold;
+    src: url(../asset/Fonts/aga-cordoba-v2-bold.ttf);
+}
+@font-face {
+    font-family: Cordoba;
+    src: url(../asset/Fonts/aga-cordoba-v2.ttf);
+}
+@font-face {
+    font-family: Mashq-v2;
+    src: url(../asset/Fonts/aga-mashq-v2.ttf);
+}
+@font-face {
+    font-family: Al-gemah-king;
+    src: url(../asset/Fonts/al-gemah-king.ttf);
+}
+@font-face {
+    font-family: Al-muhareb-2-mutawwar;
+    src: url(../asset/Fonts/al-muhareb-2-mutawwar.ttf);
+}
+@font-face {
+    font-family: Al-mwaheb4;
+    src: url(../asset/Fonts/al-mwaheb4.ttf);
+}
+@font-face {
+    font-family: Al-rashed-riyadh;
+    src: url(../asset/Fonts/al-rashed-riyadh.ttf);
+}
+@font-face {
+    font-family: Almwaheb-3;
+    src: url(../asset/Fonts/almwaheb-3.ttf);
+}
+@font-face {
+    font-family: Ara-jozoor;
+    src: url(../asset/Fonts/ara-jozoor.ttf);
+}
+@font-face {
+    font-family: Arbaeen;
+    src: url(../asset/Fonts/arbaeen.ttf);
+}
+@font-face {
+    font-family: Azhari-phatani-01-rq;
+    src: url(../asset/Fonts/azhari-phatani-01-rq.ttf);
+}
+@font-face {
+    font-family: B-mashgh;
+    src: url(../asset/Fonts/b-mashgh.ttf);
+}
+@font-face {
+    font-family: Bader-al-naseem;
+    src: url(../asset/Fonts/bader-al-naseem.ttf);
+}
+@font-face {
+    font-family: Bader-classic;
+    src: url(../asset/Fonts/bader-classic.ttf);
+}
+@font-face {
+    font-family: Basem-algharib;
+    src: url(../asset/Fonts/basem-algharib.ttf);
+}
+@font-face {
+    font-family: Bold-italic-art;
+    src: url(../asset/Fonts/bold-italic-art.ttf);
+}
+@font-face {
+    font-family: Fixedkofibold;
+    src: url(../asset/Fonts/fixedkofibold.ttf);
+}
+@font-face {
+    font-family: Ge-heritage-one-bold;
+    src: url(../asset/Fonts/ge-heritage-one-bold.ttf);
+}
+@font-face {
+    font-family: Ge-heritage-one-light;
+    src: url(../asset/Fonts/ge-heritage-one-light.ttf);
+}
+@font-face {
+    font-family: Ge-heritage-one-ultralight;
+    src: url(../asset/Fonts/ge-heritage-one-ultralight.ttf);
+}
+@font-face {
+    font-family: Ge-lady-medium;
+    src: url(../asset/Fonts/ge-lady-medium.ttf);
+}
+@font-face {
+    font-family: Ge-mb-fares-light;
+    src: url(../asset/Fonts/ge-mb-fares-light.ttf);
+}
+@font-face {
+    font-family: Ge-mb-fares-medium;
+    src: url(../asset/Fonts/ge-mb-fares-medium.ttf);
+}
+@font-face {
+    font-family: Ge-mb-najm-light;
+    src: url(../asset/Fonts/ge-mb-najm-light.ttf);
+}
+@font-face {
+    font-family: Ge-meem-medium;
+    src: url(../asset/Fonts/ge-meem-medium.ttf);
+}
+@font-face {
+    font-family: Ge-minaret-medium;
+    src: url(../asset/Fonts/ge-minaret-medium.ttf);
+}
+@font-face {
+    font-family: Ge-narrow-light;
+    src: url(../asset/Fonts/ge-narrow-light.ttf);
+}
+@font-face {
+    font-family: Grand-kufi-mazar;
+    src: url(../asset/Fonts/grand-kufi-mazar.ttf);
+}
+@font-face {
+    font-family: Hetaf-bold;
+    src: url(../asset/Fonts/hetaf-bold.ttf);
+}
+@font-face {
+    font-family: Hetaf-regular;
+    src: url(../asset/Fonts/hetaf-regular.ttf);
+}
+@font-face {
+    font-family: Hs-albasim-a;
+    src: url(../asset/Fonts/hs-albasim-a.ttf);
+}
+@font-face {
+    font-family: Hsalbasimb;
+    src: url(../asset/Fonts/hsalbasimb.ttf);
+}
+@font-face {
+    font-family: Isra-thin-regular;
+    src: url(../asset/Fonts/isra-thin-regular.ttf);
+}
+@font-face {
+    font-family: Khalkfd-abeer;
+    src: url(../asset/Fonts/khalkfd-abeer.ttf);
+}
+@font-face {
+    font-family: Khalkfd-dawlat;
+    src: url(../asset/Fonts/khalkfd-dawlat.ttf);
+}
+@font-face {
+    font-family: M-unicode-abeer;
+    src: url(../asset/Fonts/m-unicode-abeer.ttf);
+}
+@font-face {
+    font-family: Mashq-bold;
+    src: url(../asset/Fonts/mashq-bold.ttf);
+}
+@font-face {
+    font-family: Mj-anoosh;
+    src: url(../asset/Fonts/mj-anoosh.ttf);
+}
+@font-face {
+    font-family: Mj-narrow-light;
+    src: url(../asset/Fonts/mj-narrow-light.ttf);
+}
+@font-face {
+    font-family: Mj-nova;
+    src: url(../asset/Fonts/mj-nova.ttf);
+}
+@font-face {
+    font-family: Mj-sankf;
+    src: url(../asset/Fonts/mj-sankf.ttf);
+}
+@font-face {
+    font-family: Mohammad-dawlat;
+    src: url(../asset/Fonts/mohammad-dawlat.ttf);
+}
+@font-face {
+    font-family: Mola;
+    src: url(../asset/Fonts/mola.ttf);
+}
+@font-face {
+    font-family: Mrt-nova;
+    src: url(../asset/Fonts/mrt-nova.ttf);
+}
+@font-face {
+    font-family: Mrt-rafie-art;
+    src: url(../asset/Fonts/mrt-rafie-art.ttf);
+}
+@font-face {
+    font-family: Nada;
+    src: url(../asset/Fonts/nada.ttf);
+}
+@font-face {
+    font-family: Ostorah;
+    src: url(../asset/Fonts/ostorah.ttf);
+}
+@font-face {
+    font-family: Pearly-one-v1;
+    src: url(../asset/Fonts/pearly-one-v1.ttf);
+}
+@font-face {
+    font-family: Persian-sooreh-bold;
+    src: url(../asset/Fonts/persian-sooreh-bold.ttf);
+}
+@font-face {
+    font-family: Sc-rehan;
+    src: url(../asset/Fonts/sc-rehan.ttf);
+}
+@font-face {
+    font-family: Shmookh;
+    src: url(../asset/Fonts/sc-shmookh-01.ttf);
+}
+@font-face {
+    font-family: Tarablus;
+    src: url(../asset/Fonts/tarablus.ttf);
+}
