@@ -11,7 +11,7 @@ const meta = {
 }
 
 
-export const metadata: Metadata = {
+export const metadata  = {
   title: meta.title,
   description: meta.description,
 }
