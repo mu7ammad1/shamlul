@@ -1,15 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import '../fonts.css'
-import { Metadata } from "next";
 
 
 
 
-export const metadata = {
-  title: 'Icons',
-  description: 'شملول هو موقع رائد يقدم مجموعة شاملة من الأدوات والموارد المبتكرة للمصممين والمبرمجين. يتيح الموقع للمستخدمين الوصول إلى مجموعة لونية واسعة تتيح لهم تحديد مظهر فريد لمشاريعهم باستخدام ألوان متنوعة وجذابة. بالإضافة إلى ذلك، يتميز الموقع بمكتبة ضخمة تحتوي على 1000 أيقونة إبداعية، مما يوفر للمستخدمين مصدرًا غنيًا لتحسين تجربة المستخدم في تصميماتهم',
-}
 
 export default function Fonts() {
   const [inputValue, setInputValue] = useState("amazing colorful worlds.");
