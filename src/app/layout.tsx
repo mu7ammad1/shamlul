@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
+import Script from 'next/script';
 import { Inter } from 'next/font/google'
 import './globals.css'
 import './fonts.css'
 import logoBar from '@/asset/images/logo bar svg.svg'
-
 //! VERCEL
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -12,21 +12,40 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 // TODO: imports Components
 import Navbar from '@/components/Navbar'
 import AgreementForm from '@/components/AgreementForm'
-import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://shamlul.netlify.app'),
+  metadataBase: new URL('https://shamlul.vercel.app'),
   title: {
     default: 'Shamlul',
     template: '%s | Shamlul'
   },
+  creator: 'Shamlul',
+  archives: 'https://shamlul.vercel.app',
+  twitter: {
+    card: "summary_large_image",
+    site: "@Shamlul",
+    creator: "@Shamlul",
+    "images": "https://shamlul.vercel.app/_next/static/media/shamlul1200x630.6b024f8a.svg"
+  },
+  abstract: 'شملول هو موقع رائد يقدم مجموعة شاملة من الأدوات والموارد المبتكرة للمصممين والمبرمجين. يتيح الموقع للمستخدمين الوصول إلى مجموعة لونية واسعة تتيح لهم تحديد مظهر فريد لمشاريعهم باستخدام ألوان متنوعة وجذابة. بالإضافة إلى ذلك، يتميز الموقع بمكتبة ضخمة تحتوي على 1000 أيقونة إبداعية، مما يوفر للمستخدمين مصدرًا غنيًا لتحسين تجربة المستخدم في تصميماتهم',
   description: 'شملول هو موقع رائد يقدم مجموعة شاملة من الأدوات والموارد المبتكرة للمصممين والمبرمجين. يتيح الموقع للمستخدمين الوصول إلى مجموعة لونية واسعة تتيح لهم تحديد مظهر فريد لمشاريعهم باستخدام ألوان متنوعة وجذابة. بالإضافة إلى ذلك، يتميز الموقع بمكتبة ضخمة تحتوي على 1000 أيقونة إبداعية، مما يوفر للمستخدمين مصدرًا غنيًا لتحسين تجربة المستخدم في تصميماتهم',
   openGraph: {
-    images: logoBar,
-  },
+    type: "website",
+    url: "https://shamlul.vercel.app",
+    title: "Shamlul | Fonts",
+    description: 'شملول هو موقع رائد يقدم مجموعة شاملة من الأدوات والموارد المبتكرة للمصممين والمبرمجين. يتيح الموقع للمستخدمين الوصول إلى مجموعة لونية واسعة تتيح لهم تحديد مظهر فريد لمشاريعهم باستخدام ألوان متنوعة وجذابة. بالإضافة إلى ذلك، يتميز الموقع بمكتبة ضخمة تحتوي على 1000 أيقونة إبداعية، مما يوفر للمستخدمين مصدرًا غنيًا لتحسين تجربة المستخدم في تصميماتهم',
+    siteName: "Shamlul",
+    images: [
+      {
+        url: `https://shamlul.vercel.app/_next/static/media/shamlul1200x630.6b024f8a.svg`,
+      },
+    ],
+    locale: 'ar_EGYPT'
+  }
 }
+
 
 export default function RootLayout({
   children,
@@ -45,6 +64,7 @@ export default function RootLayout({
         {/* <AgreementForm /> */}
         <Navbar />
         {children}
+
         <SpeedInsights />
         <Analytics />
       </body>

@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 
+    host: https://shamlul.vercel.app
 
-Sitemap: https://shamlul.netlify.app/sitemap.xml
+Sitemap: https://shamlul.vercel.app/sitemap.xml
