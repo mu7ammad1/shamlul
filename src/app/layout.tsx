@@ -13,6 +13,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 // TODO: imports Components
 import Navbar from '@/components/Navbar'
 import AgreementForm from '@/components/AgreementForm'
+import Header from '@/components/Header';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -59,6 +60,7 @@ export default function RootLayout({
 
       <head>
         <meta name="google-site-verification" content="Pjrnb9ipmLRDAG9kfJPg87vlDZAve6cd4UD4RavnAUU" />
+        <meta name="google-adsense-account" content="ca-pub-9565235633569563" />
         <meta name="google-site-verification" content="7nUh0NZyD1QQdy5Q2tnzD7mUk2-G14FAkLhhDWhkoR4" />
       </head>
 
@@ -66,7 +68,7 @@ export default function RootLayout({
         {/* <AgreementForm /> */}
         <Navbar />
         {children}
-
+        <Header />
         <SpeedInsights />
         <Analytics />
       </body>
