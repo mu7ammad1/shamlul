@@ -3,6 +3,7 @@ import Script from 'next/script';
 import { Inter } from 'next/font/google'
 import './globals.css'
 import './fonts.css'
+import './svg.css'
 import logoBar from '@/asset/images/logo bar svg.svg'
 //! VERCEL
 import { Analytics } from '@vercel/analytics/react';
@@ -73,22 +74,23 @@ export default function RootLayout({
 
 
 
-
       <Script
         async
         strategy='afterInteractive'
-        src="https://www.googletagmanager.com/gtag/js?id=G-L7BN49S88M"
+        src="https://www.googletagmanager.com/gtag/js?id=G-7031Q853NH"
       />
+      
 
       <Script id='google-analytics' strategy='afterInteractive'>
-        {`
+      {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
         
-          gtag('config', 'G-L7BN49S88M');
+          gtag('config', 'G-7031Q853NH');
         
       `}
+
       </Script>
 
     </html>

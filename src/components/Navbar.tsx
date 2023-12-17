@@ -63,15 +63,15 @@ export default function Navbar() {
               <div className="flex justify-center items-center">
                 <button
                   type="button"
-                  className="relative flex rounded-full text-sm bg-[#202020] p-2 px-5 mr-2"
+                  className="relative flex rounded-full text-sm dark:bg-[#202020] p-2 px-5 mr-2"
                 >
-                  Sigin Up
+                  Login
                 </button>
                 <button
                   type="button"
-                  className="relative flex rounded-full text-sm  bg-[#2f882e] p-2 px-5 ml-2"
+                  className="relative flex rounded-full text-sm  bg-[#FFB534] p-2 px-5 ml-2"
                 >
-                  Login
+                  Sigin Up
                 </button>
 
               </div>
