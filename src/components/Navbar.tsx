@@ -1,8 +1,11 @@
 import React from "react";
 import Models_navbar from "./Platya";
 import Link from "next/link";
-import logo from '@/asset/images/shamlul.svg'
 import Image from "next/image";
+import logo from '@/asset/images/shamlul.svg'
+import logo_dark from '@/asset/images/shamlul_dark.svg'
+
+
 export default function Navbar() {
   return (
     <div>
@@ -11,7 +14,8 @@ export default function Navbar() {
           <div className="relative flex h-16 items-center justify-between">
             <div className="flex items-center justify-start sm:items-stretch sm:justify-start">
               <Link href={`/`} className="flex justify-center items-center">
-                <Image src={logo} alt="logo" className="first:w-32" />
+                <Image src={logo} alt="logo" className="w-32 dark:hidden" />
+                <Image src={logo_dark} alt="logo" className="w-32 hidden dark:block" />
               </Link>
               <div className="max-md:hidden sm:ml-6 sm:block">
                 <div className="flex text-[#101010]">

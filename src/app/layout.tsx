@@ -2,9 +2,7 @@ import type { Metadata } from 'next'
 import Script from 'next/script';
 import { Inter } from 'next/font/google'
 import './globals.css'
-import './fonts.css'
-import './svg.css'
-import logoBar from '@/asset/images/logo bar svg.svg'
+
 //! VERCEL
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -21,14 +19,16 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://shamlul.vercel.app'),
   title: {
     default: 'Shamlul',
-    template: '%s | Shamlul'
+    template: '%s - Shamlul'
   },
   creator: 'Shamlul',
   archives: 'https://shamlul.vercel.app',
+  appleWebApp:{ capable: true, title: "Shamlul", statusBarStyle: "default" },
+
   twitter: {
     card: "summary_large_image",
-    site: "@Shamlul",
-    creator: "@Shamlul",
+    site: "@Shamlul.com",
+    creator: "@Shamlul.com",
     "images": "https://lh3.googleusercontent.com/pw/ABLVV86-kphhZpN7lt0YBEx6a-gDv6Cuaf6O1t6UgEoAj8oAyrqvQJuPBVIqrcdz9kfVEoHckVkn9y-m1HFQaNDz0pHg3qUvpe23RGpkhhqJUrzhhB1uS9ldnL9zMUMyXijECe7goCyKNepLKWNKkPVJGIU=w1200-h630-s-no?authuser=0"
   },
   publisher: 'Shamlul',

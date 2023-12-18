@@ -6,9 +6,9 @@ import { Metadata } from "next";
 
 
 const meta = {
-  title: 'Palettes',
-  description: 'شملول هو موقع رائد يقدم مجموعة شاملة من الأدوات والموارد المبتكرة للمصممين والمبرمجين. يتيح الموقع للمستخدمين الوصول إلى مجموعة لونية واسعة تتيح لهم تحديد مظهر فريد لمشاريعهم باستخدام ألوان متنوعة وجذابة. بالإضافة إلى ذلك، يتميز الموقع بمكتبة ضخمة تحتوي على 1000 أيقونة إبداعية، مما يوفر للمستخدمين مصدرًا غنيًا لتحسين تجربة المستخدم في تصميماتهم',
-  keywords: 'palettes, shamlul palettes, اللون, اللوان, colors, color, white, black, black white',
+  title: 'Generate stunning color palettes in seconds!',
+  description: 'Create or explore stunning color pairings for your creative projects, Uncover captivating color schemes tailored for your designs',
+  keywords: 'Palettes, shamlul palettes, اللون, اللوان, colors, color, white, black, black white, color scheme, scheme color, color schemes, color theme, color palette, color themes, color palettes, color combinations, color, colors, palettes, hex color wheel, pastel color palette, color wheel, color combination, color pallete, color names, web color schemes, color wheel generator, extract color palette from image, random color palette generator, color schemes generator, ui color palette generator, pretty colors, vintage color, color palette from image',
   creator: 'Shamlul',
 }
 
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   creator: meta.creator,
   openGraph: {
     type: "website",
-    url: "https://shamlul.vercel.app",
-    title: "Shamlul | palettes",
+    url: "https://shamlul.vercel.app/palettes",
+    title: "Shamlul - palettes",
     description: meta.description,
     siteName: "Shamlul",
     images: [

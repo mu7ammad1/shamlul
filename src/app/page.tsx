@@ -4,8 +4,8 @@ import { Metadata } from "next";
 
 
 const meta = {
-  title: 'Shamlul | الصفحة الرئيسية',
-  description: 'شملول هو موقع رائد يقدم مجموعة شاملة من الأدوات والموارد المبتكرة للمصممين والمبرمجين. يتيح الموقع للمستخدمين الوصول إلى مجموعة لونية واسعة تتيح لهم تحديد مظهر فريد لمشاريعهم باستخدام ألوان متنوعة وجذابة. بالإضافة إلى ذلك، يتميز الموقع بمكتبة ضخمة تحتوي على 1000 أيقونة إبداعية، مما يوفر للمستخدمين مصدرًا غنيًا لتحسين تجربة المستخدم في تصميماتهم',
+  title: 'الصفحة الرئيسية - Shamlul ',
+  description: '',
   keywords: 'font, fonts, shamlul, shamlul home, shamlul home page, shamlul الصفحة الرئيسية, shamlul fonts, خطوط, خط',
   creator: 'Shamlul',
 }
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://shamlul.vercel.app",
-    title: "Shamlul | الصفحة الرئيسية",
+    title: "Shamlul - الصفحة الرئيسية",
     description: meta.description,
     siteName: "Shamlul",
     images: [

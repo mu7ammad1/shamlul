@@ -24,12 +24,6 @@ export default function Alemet() {
               inputMode="text"
             />
             <div className="flex flex-row justify-center items-center">
-              <button className="btn px-10 mx-1 dark:bg-[#101010] border-none outline-none py-[1px] dark:text-white bg-[#cbcbcb] hover:bg-blue-500 dark:hover:bg-sky-500">
-                efaj
-              </button>
-              <button className="btn px-10 mx-1 dark:bg-[#101010] border-none outline-none py-[1px] dark:text-white bg-[#cbcbcb] hover:bg-blue-500 dark:hover:bg-blue-500">
-                efaj
-              </button>
               <button className="btn px-10 mx-1 dark:bg-[#101010] border-none outline-none py-[1px] dark:text-white bg-[#cbcbcb] hover:bg-rose-500 dark:hover:bg-indigo-500">
                 efaj
               </button>
