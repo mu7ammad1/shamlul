@@ -1,6 +1,5 @@
 'use client'
 import React, { useState } from "react";
-import '@/app/fonts.css'
 
 
 export default function Opla() {

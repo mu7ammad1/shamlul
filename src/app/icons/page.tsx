@@ -1,6 +1,6 @@
 import Alemet from '@/components/Alemet'
 import { Metadata } from "next";
-
+import Glok from '@/components/glok'
 
 
 
@@ -38,7 +38,8 @@ export const metadata: Metadata = {
 export default function Icons() {
   return (
     <div>
-        <Alemet />
+        {/* <Alemet /> */}
+        <Glok />
     </div>
   )
 }
