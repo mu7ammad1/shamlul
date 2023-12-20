@@ -12,11 +12,11 @@
 
 @font-face {
   font-family: 'shamlul';
-  src:  url('fonts/shamlul.eot');
-  src:  url('fonts/shamlul.eot') format('embedded-opentype'),
-    url('fonts/shamlul.ttf') format('truetype'),
-    url('fonts/shamlul.woff') format('woff'),
-    url('fonts/shamlul.svg') format('svg');
+  src:  url('shamlul/shamlul.eot');
+  src:  url('shamlul/shamlul.eot') format('embedded-opentype'),
+    url('shamlul/shamlul.ttf') format('truetype'),
+    url('shamlul/shamlul.woff') format('woff'),
+    url('shamlul/shamlul.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
