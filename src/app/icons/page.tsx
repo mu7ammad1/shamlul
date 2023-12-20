@@ -1,7 +1,6 @@
 import Alemet from '@/components/Alemet'
 import { Metadata } from "next";
-import Glok from '@/components/glok'
-
+import Loopian from '@/components/Loopian'
 
 
 const meta = {
@@ -39,7 +38,7 @@ export default function Icons() {
   return (
     <div>
         {/* <Alemet /> */}
-        <Glok />
+      <Loopian />
     </div>
   )
 }
