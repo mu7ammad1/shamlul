@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
   font-family: 'shamlul';
   src:  url('fonts/shamlul.eot?lkfpql');
   src:  url('fonts/shamlul.eot?lkfpql#iefix') format('embedded-opentype'),
@@ -8,9 +8,9 @@
   font-weight: normal;
   font-style: normal;
   font-display: block;
-} */
+}
 
-@font-face {
+/* @font-face {
   font-family: 'shamlul';
   src:  url('./fonts/shamlul.eot');
   src:  url('./fonts/shamlul.eot') format('embedded-opentype'),
@@ -20,7 +20,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: block;
-} */
+} */ */
 
 
 .sh {
