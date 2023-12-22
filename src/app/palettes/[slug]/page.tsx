@@ -1,10 +1,40 @@
-import React from 'react';
+import { Metadata } from "next";
 
-interface PaletteProps {
-    params: {
-        slug: string;
-    };
+
+
+
+
+const meta = {
+    title: 'Generate stunning color palettes in seconds!',
+    description: 'Create or explore stunning color pairings for your creative projects, Uncover captivating color schemes tailored for your designs',
+    keywords: 'Palettes, shamlul palettes, اللون, اللوان, colors, color, white, black, black white, color scheme, scheme color, color schemes, color theme, color palette, color themes, color palettes, color combinations, color, colors, palettes, hex color wheel, pastel color palette, color wheel, color combination, color pallete, color names, web color schemes, color wheel generator, extract color palette from image, random color palette generator, color schemes generator, ui color palette generator, pretty colors, vintage color, color palette from image',
+    creator: 'Shamlul',
 }
+
+export const metadata: Metadata = {
+    metadataBase: new URL('https://shamlul.vercel.app/palettes'),
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    archives: 'https://shamlul.vercel.app/palettes',
+    abstract: meta.description,
+    creator: meta.creator,
+    openGraph: {
+        type: "website",
+        url: "https://shamlul.vercel.app/palettes",
+        title: "Shamlul - palettes",
+        description: meta.description,
+        siteName: "Shamlul",
+        images: [
+            {
+                url: `https://lh3.googleusercontent.com/pw/ABLVV86-kphhZpN7lt0YBEx6a-gDv6Cuaf6O1t6UgEoAj8oAyrqvQJuPBVIqrcdz9kfVEoHckVkn9y-m1HFQaNDz0pHg3qUvpe23RGpkhhqJUrzhhB1uS9ldnL9zMUMyXijECe7goCyKNepLKWNKkPVJGIU=w1200-h630-s-no?authuser=0`,
+            },
+        ],
+        locale: 'ar_EGYPT'
+    }
+
+}
+
 
 const Data = [
     ['FFB534', 'FBF6EE', 'C1F2B0', '65B741'],
@@ -33,8 +63,8 @@ const Data = [
     ['d8e2dc', 'ffe5d9', 'ffcad4', 'f4acb7', '9d8189'],
     ['f4f1de', 'e07a5f', '3d405b', '81b29a', 'f2cc8f'],
     ['000814', '001d3d', '003566', 'ffc300', 'ffd60a'],
-    ['001219', '005f73', '0a9396', '94d2bd', 'e9d8a6','ee9b00','ca6702','bb3e03','ae2012','9b2226'],
-    ['03045e', '023e8a', '0077b6', '0096c7', '00b4d8','48cae4','90e0ef', 'ade8f4','caf0f8'],
+    ['001219', '005f73', '0a9396', '94d2bd', 'e9d8a6', 'ee9b00', 'ca6702', 'bb3e03', 'ae2012', '9b2226'],
+    ['03045e', '023e8a', '0077b6', '0096c7', '00b4d8', '48cae4', '90e0ef', 'ade8f4', 'caf0f8'],
     ['386641', '6a994e', 'a7c957', 'f2e8cf', 'bc4749'],
     ['000000', '000000', '000000', '000000', '000000'],
     ['000000', '000000', '000000', '000000', '000000'],
@@ -299,7 +329,7 @@ const Data = [
     ['092635', '1B4242', '5C8374', '9EC8B9'],
     ['092635', '1B4242', '5C8374', '9EC8B9'],];
 
-const Palette: React.FC<PaletteProps> = ({ params }) => {
+export default function Palette({ params }: { params: { slug: string } }) {
     // البحث عن الصف الذي يتطابق مع سلسلة الصف في params.slug
     const selectedRow = Data.find(row => row.join('-') === params.slug);
 
@@ -330,5 +360,3 @@ const Palette: React.FC<PaletteProps> = ({ params }) => {
         </main>
     );
 };
-
-export default Palette;
