@@ -1,6 +1,8 @@
+user-agent: Mediapartners-Google
+Disallow: 
 User-agent: *
+Disallow: /search
 Allow: /
 
-    host: https://shamlul.vercel.app
 
 Sitemap: https://shamlul.vercel.app/sitemap.xml

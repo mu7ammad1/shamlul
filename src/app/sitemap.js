@@ -59,12 +59,25 @@ export default function sitemap() {
         ['ef233c', 'd5f2e3', '73ba9b', '003e1f', 'd90429'],
         ['00296b', '003f88', '00509d', 'fdc500', 'ffd500'],
         ['4f000b', '720026', 'ce4257', 'ff7f51', 'ff9b54'],
-        ['092635', '1B4242', '5C8374', '9EC8B9'],
-        ['092635', '1B4242', '5C8374', '9EC8B9'],
-        ['092635', '1B4242', '5C8374', '9EC8B9'],
-        ['092635', '1B4242', '5C8374', '9EC8B9'],
-        ['092635', '1B4242', '5C8374', '9EC8B9'],
-    ];
+        ['2c6e49', '4c956c', 'fefee3', '9EC8B9', 'd68c45'],
+        ['231942', '5e548e', '9f86c0', 'be95c4', 'e0b1cb'],
+        ['01295f', '437f97', '849324', 'ffb30f', 'fd151b'],
+        ['6f1d1b', 'bb9457', '432818', '99582a', 'ffe6a7'],
+        ['355070', '6d597a', 'b56576', 'e56b6f', 'eaac8b'],
+        ['0fa3b1', 'b5e2fa', 'f9f7f3', 'eddea4', 'f7a072'],
+        ['ff99c8', 'fcf6bd', 'd0f4de', 'a9def9', 'e4c1f9'],
+        ['7bdff2', 'b2f7ef', 'eff7f6', 'f7d6e0', 'f2b5d4'],
+        ['a0ddff', '758ecd', 'c1cefe', '7189ff', '624cab'],
+        ['233d4d', 'fe7f2d', 'fcca46', 'a1c181', '619b8a'],
+        ['ffffff', 'e9edf0', '1a776f', '193741', '000000'],
+        ['582f0e', '7f4f24', 'a68a64', 'b6ad90', 'c2c5aa'],
+        ['a4ac86', '656d4a', '414833', '333d29', '081c15'],
+        ['d8f3dc', 'b7e4c7', '95d5b2', '52b788', '40916c'],
+        ['5465ff', '788bff', '9bb1ff', 'bfd7ff', 'e2fdff'],
+        ['22577a', '38a3a5', '57cc99', '80ed99', 'c7f9cc'],
+        ['0d1821', '344966', 'b4cded', 'f0f4ef', 'bfcc94'],
+        ['20bf55', '0b4f6c', '01baef', 'fbfbff', '757575'],
+    ]
 
 
 
@@ -78,7 +91,7 @@ export default function sitemap() {
         url: `https://shamlul.vercel.app/palettes/${item.join('-')}`,
         lastModified: new Date(),
         changeFrequency: 'daily',
-        priority: 0.8,
+        priority: 0.9,
     }))
     return [
         {
@@ -91,25 +104,25 @@ export default function sitemap() {
             url: 'https://shamlul.vercel.app/explore',
             lastModified: new Date(),
             changeFrequency: 'daily',
-            priority: 0.8,
+            priority: 0.9,
         },
         {
             url: 'https://shamlul.vercel.app/fonts',
             lastModified: new Date(),
             changeFrequency: 'daily',
-            priority: 0.8,
+            priority: 0.9,
         },
         {
             url: 'https://shamlul.vercel.app/palettes',
             lastModified: new Date(),
             changeFrequency: 'daily',
-            priority: 0.8,
+            priority: 0.9,
         },
         {
             url: 'https://shamlul.vercel.app/icons',
             lastModified: new Date(),
             changeFrequency: 'daily',
-            priority: 0.8,
+            priority: 0.9,
         },
         ...post
     ]
