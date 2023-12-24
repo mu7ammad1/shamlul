@@ -64,6 +64,7 @@ export default function RootLayout({
         <meta name="google-adsense-account" content="ca-pub-9565235633569563" />
         <meta name="google-site-verification" content="7nUh0NZyD1QQdy5Q2tnzD7mUk2-G14FAkLhhDWhkoR4" />
         <meta name="google-adsense-account" content="ca-pub-9565235633569563" />
+        <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
       </head>
 
       <body className={inter.className}>
