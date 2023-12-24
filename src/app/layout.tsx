@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   creator: 'Shamlul',
   archives: 'https://shamlul.vercel.app',
-  appleWebApp:{ capable: true, title: "Shamlul", statusBarStyle: "default" },
+  appleWebApp: { capable: true, title: "Shamlul", statusBarStyle: "default" },
 
   twitter: {
     card: "summary_large_image",
@@ -63,6 +63,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="Pjrnb9ipmLRDAG9kfJPg87vlDZAve6cd4UD4RavnAUU" />
         <meta name="google-adsense-account" content="ca-pub-9565235633569563" />
         <meta name="google-site-verification" content="7nUh0NZyD1QQdy5Q2tnzD7mUk2-G14FAkLhhDWhkoR4" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9565235633569563" crossOrigin="anonymous"></script>
       </head>
 
       <body className={inter.className}>
@@ -83,10 +84,10 @@ export default function RootLayout({
         strategy='afterInteractive'
         src="https://www.googletagmanager.com/gtag/js?id=G-7031Q853NH"
       />
-      
+
 
       <Script id='google-analytics' strategy='afterInteractive'>
-      {`
+        {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
@@ -96,6 +97,8 @@ export default function RootLayout({
       `}
 
       </Script>
+
+
 
     </html>
 
