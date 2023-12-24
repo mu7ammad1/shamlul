@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   creator: 'Shamlul',
   archives: 'https://shamlul.vercel.app',
   appleWebApp: { capable: true, title: "Shamlul", statusBarStyle: "default" },
-
+  keywords: 'background color,background color a2d2ff,background color dda15e,border color,color blindness,color of a2d2ff,color scheme,complementary colors,cylindrical coordinate representations,div style,ef233c hex color,ffb703 color,green blue,hex color,red green,rgb 221 161 94,rgb color,text shadow,white background,color space' ,
   twitter: {
     card: "summary_large_image",
     site: "@Shamlul.com",
@@ -33,7 +33,6 @@ export const metadata: Metadata = {
     "images": "https://lh3.googleusercontent.com/pw/ABLVV86-kphhZpN7lt0YBEx6a-gDv6Cuaf6O1t6UgEoAj8oAyrqvQJuPBVIqrcdz9kfVEoHckVkn9y-m1HFQaNDz0pHg3qUvpe23RGpkhhqJUrzhhB1uS9ldnL9zMUMyXijECe7goCyKNepLKWNKkPVJGIU=w1200-h630-s-no?authuser=0"
   },
   publisher: 'Shamlul',
-  abstract: 'شملول هو موقع رائد يقدم مجموعة شاملة من الأدوات والموارد المبتكرة للمصممين والمبرمجين. يتيح الموقع للمستخدمين الوصول إلى مجموعة لونية واسعة تتيح لهم تحديد مظهر فريد لمشاريعهم باستخدام ألوان متنوعة وجذابة. بالإضافة إلى ذلك، يتميز الموقع بمكتبة ضخمة تحتوي على 1000 أيقونة إبداعية، مما يوفر للمستخدمين مصدرًا غنيًا لتحسين تجربة المستخدم في تصميماتهم',
   description: 'شملول هو موقع رائد يقدم مجموعة شاملة من الأدوات والموارد المبتكرة للمصممين والمبرمجين. يتيح الموقع للمستخدمين الوصول إلى مجموعة لونية واسعة تتيح لهم تحديد مظهر فريد لمشاريعهم باستخدام ألوان متنوعة وجذابة. بالإضافة إلى ذلك، يتميز الموقع بمكتبة ضخمة تحتوي على 1000 أيقونة إبداعية، مما يوفر للمستخدمين مصدرًا غنيًا لتحسين تجربة المستخدم في تصميماتهم',
   openGraph: {
     type: "website",
