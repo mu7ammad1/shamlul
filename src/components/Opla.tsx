@@ -1,6 +1,8 @@
 'use client'
+import Image from "next/image";
 import React, { useState } from "react";
-
+import fonts from '@/asset/images/fonts.svg'
+import fonts_dark from '@/asset/images/fonts-dark.svg'
 
 export default function Opla() {
   const [inputValue, setInputValue] = useState("amazing colorful worlds.");
@@ -147,14 +149,18 @@ export default function Opla() {
   return (
     <section className="pb-16 flex justify-center items-center">
       <div className="max-w-7xl">
-        <div className="text-center">
-          <h1 className="text-8xl font-extrabold mt-14 bg-clip-text bg-current p-4 text-transparent bg-gradient-to-r from-rose-500 to-indigo-500">
-            Fonts
-          </h1>
-          <h1 className="text-2xl mt-5 mx-36">
-            Enjoy an enchanting journey through amazing colorful worlds.
-          </h1>
+        <div className="mb-10 mt-5 grid  grid-cols-2 gap-3">
+          <div>
+            <h1 className="text-8xl font-extrabold mt-5 p-4 text-blue-400">Fonts</h1>
+            <h1 className="text-xl mt-5 mx-10">Enjoy an enchanting journey through amazing colorful worlds.</h1>
+          </div>
+          <div>
+            <Image src={fonts} alt="bg icon on shamlul icons page" className="dark:hidden" />
+            <Image src={fonts_dark} alt="bg icon on shamlul icons page" className="hidden dark:block" />
+          </div>
         </div>
+
+
         <div className="m-10 text-center">
           <div className="flex justify-between w-full max-w-full">
             <input

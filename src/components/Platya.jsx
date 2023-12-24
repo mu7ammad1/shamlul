@@ -1,8 +1,12 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import ee from './Data'
+
+import palettes from '@/asset/images/palettes.svg'
+import palettes_dark from '@/asset/images/palettes-dark.svg'
 
 export default function Platya() {
 
@@ -45,11 +49,28 @@ export default function Platya() {
     <section className="flex justify-center ">
 
       <div className="max-w-7xl w-full">
-        <div className="h-96">
-          <h1 className="text-8xl text-center font-extrabold mt-14 bg-clip-text bg-current p-4 text-transparent bg-gradient-to-r from-[#FFB534] to-[#65B741]">Palettes</h1>
-          <h1 className="text-center text-2xl mt-5 mx-36">Enjoy an enchanting journey through amazing colorful worlds.</h1>
-        </div>
+        <div className="mb-10 mt-5 grid  grid-cols-2 gap-3">
+          <div>
+            <h1 className="text-8xl font-extrabold mt-5 p-4 text-[#FFA732]">Palettes</h1>
+            <h1 className="text-xl mt-5 mx-10">Enjoy an enchanting journey through amazing colorful worlds.</h1>
+          </div>
+          <div>
+            <Image src={palettes} alt="bg icon on shamlul icons page" className="dark:hidden" />
+            <Image src={palettes_dark} alt="bg icon on shamlul icons page" className="hidden dark:block" />
+          </div>
 
+
+        </div>
+        <div className="flex justify-start mb-5 items-center max-w-full w-full">
+
+          <div className="max-w-full w-4/5 flex gap-2">
+            <button className="btn px-8 bg-white">Dark</button>
+            <button className="btn px-8 bg-white">Dark</button>
+            <button className="btn px-8 bg-white">Dark</button>
+          </div>
+
+        </div>
+        
 
         <div className=" flex justify-center items-center">
 

@@ -1,5 +1,3 @@
-import React from "react";
-import Models_navbar from "./Platya";
 import Link from "next/link";
 import Image from "next/image";
 import logo from '@/asset/images/shamlul.svg'

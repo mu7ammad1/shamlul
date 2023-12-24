@@ -1,6 +1,9 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
+import icon from '@/asset/images/icons.svg'
+import icon_dark from '@/asset/images/icons-dark.svg'
 
 export default function Platya() {
 
@@ -619,9 +622,15 @@ export default function Platya() {
         <section className="flex justify-center">
 
             <div className="max-w-7xl w-full">
-                <div className="h-96">
-                    <h1 className="text-8xl text-center font-extrabold mt-14 p-4 text-emerald-300">Icons</h1>
-                    <h1 className="text-center text-2xl mt-5 mx-36">Enjoy an enchanting journey through amazing colorful worlds.</h1>
+                <div className="mb-10 mt-5 grid  grid-cols-2 gap-3">
+                    <div>
+                        <h1 className="text-8xl font-extrabold mt-5 p-4 text-emerald-400">Icons</h1>
+                        <h1 className="text-xl mt-5 mx-10">Enjoy an enchanting journey through amazing colorful worlds.</h1>
+                    </div>
+                    <div>
+                        <Image src={icon} alt="bg icon on shamlul icons page" className="dark:hidden" />
+                        <Image src={icon_dark} alt="bg icon on shamlul icons page" className="hidden dark:block" />
+                    </div>
                 </div>
 
 
@@ -638,7 +647,7 @@ export default function Platya() {
                         endMessage={<ItemsMore more={`End`} />}
                         className="overflow-hidden h-0"
                     >
-                        <div className="grid max-2xl:grid-cols-10 max-xl:grid-cols-8 max-lg:grid-cols-6 max-md:grid-cols-4 max-sm:grid-cols-2 gap-4 mx-5 my-1">
+                        <div className="grid grid-cols-11 max-2xl:grid-cols-10 max-xl:grid-cols-8 max-lg:grid-cols-6 max-md:grid-cols-4 max-sm:grid-cols-2 gap-4 mx-5 my-1">
 
 
                             {fruitsData.slice(0, visibleCards).map((row, rowIndex) => (

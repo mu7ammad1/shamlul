@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Models_navbar.tsx","src/**/*.tsx", "src/app/palettes/page.tsx", "src/app/**/*.jsx", "src/app/sitemap.js", "src/*/**.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Models_navbar.tsx","src/**/*.tsx", "src/app/palettes/page.tsx", "src/app/**/*.jsx", "src/app/sitemap.js", "src/*/**.js", "src/components/Stand_with_Palestine.tsx"],
   "exclude": ["node_modules"]
 }

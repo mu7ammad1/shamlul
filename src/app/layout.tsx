@@ -12,6 +12,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import Navbar from '@/components/Navbar'
 import AgreementForm from '@/components/AgreementForm'
 import Header from '@/components/Header';
+import Stand_with_Palestine from '@/components/Stand_with_Palestine';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://shamlul.vercel.app'),
   title: {
     default: 'Shamlul',
-    template: '%s - Shamlul'
+    template: '%s on Shamlul'
   },
   creator: 'Shamlul',
   archives: 'https://shamlul.vercel.app',
@@ -66,6 +67,7 @@ export default function RootLayout({
 
       <body className={inter.className}>
         {/* <AgreementForm /> */}
+        <Stand_with_Palestine />
         <Navbar />
         {children}
         <Header />
