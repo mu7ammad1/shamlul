@@ -63,7 +63,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="Pjrnb9ipmLRDAG9kfJPg87vlDZAve6cd4UD4RavnAUU" />
         <meta name="google-adsense-account" content="ca-pub-9565235633569563" />
         <meta name="google-site-verification" content="7nUh0NZyD1QQdy5Q2tnzD7mUk2-G14FAkLhhDWhkoR4" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9565235633569563" crossOrigin="anonymous"></script>
+        <meta name="google-adsense-account" content="ca-pub-9565235633569563" />
       </head>
 
       <body className={inter.className}>
