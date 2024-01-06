@@ -6,3 +6,4 @@ Allow: /
 
 
 Sitemap: https://shamlul.vercel.app/sitemap.xml
+Sitemap: https://shamlul.vercel.app/sitemaps/sitemap.xml
